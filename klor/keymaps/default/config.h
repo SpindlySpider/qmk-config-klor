@@ -5,14 +5,15 @@ see https://docs.qmk.fm/#/feature_split_keyboard?id=setting-handedness
 for more options.
 */
 
-#define MASTER_LEFT
+#define MANUFACTURER "GEIGEIGEIST"
+#define PRODUCT "KLOR"
+#define VENDOR_ID 0x3A3C
+#define PRODUCT_ID 0x0001
+#define DEVICE_VER 0x0130
 // #define MASTER_RIGHT
 
 //#define TAPPING_TERM 170
 #define TAPPING_TERM 170
-
-// Prevent normal rollover on alphas from accidentally triggering mods.
-#define IGNORE_MOD_TAP_INTERRUPT
 
 // Enable rapid switch from tap to hold, disables double tap hold auto-repeat.
 #define TAPPING_FORCE_HOLD

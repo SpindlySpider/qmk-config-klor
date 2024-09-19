@@ -16,8 +16,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
 #pragma once
-#include "config_common.h"
-
 
 // ┌─────────────────────────────────────────────────┐
 // │ k e y   m a t r i x                             │
@@ -46,11 +44,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 // │ e n c o d e r s                                 │
 // └─────────────────────────────────────────────────┘ 
 
-#define ENCODERS_PAD_A       { F5 }
-#define ENCODERS_PAD_B       { F4 }
 #define ENCODERS_PAD_A_RIGHT { F4 }
 #define ENCODERS_PAD_B_RIGHT { F5 }
-#define ENCODER_RESOLUTION 2
+#define ENCODER_RESOLUTION 1
 
 
 // ┌─────────────────────────────────────────────────┐
@@ -68,7 +64,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 // │ r g b   l e d s                                 │
 // └─────────────────────────────────────────────────┘ 
 
-#define RGB_DI_PIN D3
+#define WS2812_DI_PIN D3
 #define RGBLED_NUM 42
 #define RGBLED_SPLIT { 21, 21 }
 #define RGB_MATRIX_LED_COUNT RGBLED_NUM
