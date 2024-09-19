@@ -21,3 +21,5 @@ You can use this command to compile the firmware
 
 and this command if you want to compile the firmware for a RP2040 based MCU
 `qmk compile -kb klor/2040 -km default`
+
+If you want to flash a device through cli use `qmk compile -kb klor -km default -bl <bootloader>`
